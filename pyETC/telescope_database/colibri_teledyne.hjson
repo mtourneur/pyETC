@@ -134,7 +134,11 @@
         # Size of 1 photocell on X axis (in meters)
         "Photocell_SizeX": 18e-6            
         # Size of 1 photocell on Y axis (in meters)
-        "Photocell_SizeY": 18e-6            
+        "Photocell_SizeY": 18e-6  
+        # Width of reference pixel band on X axis (in number of pixels)
+        "NrefPix_x": 4
+        # Width of reference pixel band on X axis (in number of pixels)
+        "NrefPix_y": 4
         # Time required to read all the photocells (in s)
         "ReadoutTime": 1.4
         # Full well capacity of one photocell (in e-)
