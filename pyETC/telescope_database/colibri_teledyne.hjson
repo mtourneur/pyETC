@@ -1,4 +1,4 @@
-#-------- LOCAL CONDITIONS  ---------------------#
+﻿#-------- LOCAL CONDITIONS  ---------------------#
 # File containing sky brightness should be in pyETC/local_conditions/sky_brightness/
 "sky_site": OAN_Ratir_X1.5
 # Wheter the atmospheric transmission is loaded from a file or computed using the extinction: "file" / "data"
@@ -150,6 +150,19 @@
         # e- to ADU conversion factor
         "gain": 1.3
         # Number of bits for the camera
-        "bits": 16}
+        "bits": 16
+        # Interpixel Crosstalk coefficient between [0,1]
+        # c1 / c2 / c3
+        # c4 / c5 / c6
+        # c7 / c8 / c9
+        "c1": 0.0012
+        "c2": 0.0143
+        "c3": 0.0010
+        "c4": 0.0164
+        "c5": 0.936
+        "c6": 0.0168
+        "c7": 0.0010
+        "c8": 0.0133
+        "c9": 0.0011}
 }
 
